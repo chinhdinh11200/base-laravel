@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Http\Repositories\{{repository}};
+
+use App\Http\Repositories\BaseRepository;
+use {{repositoryModelNamespace}};
+
+class {{repository}} extends BaseRepository implements {{repositoryInterface}}
+{
+    public function __construct({{repositoryModel}} {{repositoryInstance}})
+    {
+        parent::__construct({{repositoryInstance}});
+    }
+}

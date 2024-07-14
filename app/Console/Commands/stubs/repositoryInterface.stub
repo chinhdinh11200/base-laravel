@@ -1,0 +1,10 @@
+<?php
+
+namespace App\Repositories\{{namespace}};
+
+use App\Http\Repositories\BaseRepositoryInterface;
+
+interface {{interface}} extends BaseRepositoryInterface
+{
+    
+}

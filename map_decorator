@@ -1,0 +1,11 @@
+shape == baseRepositoryInterface 
+
+circle == rectangle == BaseRepository == UserRepository ...
+
+ShapeDecorator == BaseDecorator
+
+RedDecorator == UserDecorator ...
+
+DecoratorDemo == Service(Controller)
+
+
